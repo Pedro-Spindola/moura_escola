@@ -1,0 +1,101 @@
+.section{
+    background-color: var(--color-black);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container{
+    width: 100%;
+    min-height: 380px;
+    flex-wrap: nowrap;
+}
+
+.boxOpcoes{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: calc(50% - 10px);
+    min-height: 380px;
+    margin: 20px 0px 20px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.options{
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(100% / 5);
+    border-radius: 20px 0px 0px 20px;
+    padding: 20px;
+    transition: background-color ease .5s;
+}
+
+.options:hover{
+    transition: background-color ease .5s;
+    background-color: var(--color-blackC);
+    border-left: 2px solid var(--color-primaria);
+    border-bottom: 2px solid var(--color-primaria);
+}
+
+.options .h2{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.line{
+    min-height: 380px;
+    width: 20px;
+    border-radius: 20px 0px 0px 20px;
+    margin: 20px 0px 20px 0px;
+    background-color: var(--color-black);
+    transition: background-color ease .5s;
+}
+
+.lineSelect{
+    background-color: var(--color-blackC);
+    border-left: 2px solid var(--color-primaria);
+    border-top: 2px solid var(--color-primaria);
+    border-bottom: 2px solid var(--color-primaria);
+    transition: background-color ease .5s;
+}
+
+.textOptions{
+    width: calc(50% - 10px);
+    min-height: 380px;
+    margin: 20px 20px 20px 0px;
+    border-radius: 0px 20px 20px 0;
+    padding: 20px;
+    background-color: var(--color-black);
+    transition: background-color ease .5s;
+}
+
+.textOptionsSelect{
+    background-color: var(--color-blackC);
+    transition: background-color ease .5s;
+}
+
+.textOptions .h3{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.5;
+}
+
+.ponto{
+    width: 10px;
+    height: 10px;
+    margin-right: 40px;
+    border-radius: 50%;
+    background-color: var(--color-white);
+}
+
+.pontoHovered {
+    background-color: var(--color-primaria); /* cor quando hovered */
+}

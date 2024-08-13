@@ -1,0 +1,115 @@
+main{
+    background-color: var(--color-black);
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+.container{
+    height: calc(100% - 40px);
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.boxOne{
+    width: 35%;
+    padding: 10px;
+    padding-top: 120px;
+}
+
+.boxTwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    padding: 10px;
+}
+
+.boxImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding-left: 100px;
+}
+
+.textLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    border-left: 2px solid var(--color-primaria);
+}
+
+.boxOne .nomeLogoH1{
+    width: 140px;
+    text-align: justify;
+    text-align-last: justify;
+    font-size: 32px;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.boxOne .nomeLogoH2{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    text-transform: uppercase;
+    width: 130px;
+    text-align: justify;
+    text-align-last: justify;
+    letter-spacing: 1px;
+}
+
+.boxOne .titulo{
+    margin-top: 60px;
+    font-size: 26px;
+    padding: 10px 0px;
+}
+
+.boxOne .subTitulo{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.imgLogo{
+    height: 90px;
+    padding-right: 20px;
+}
+
+.imgProfessor{
+    height: 80%;
+}
+
+.lineScroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: var(--color-primaria);
+}
+
+.imgSetas{
+    height: 50px;
+    transition: ease 1s;
+}
+
+.imgSetas:hover{
+    transition: ease 1s;
+    transform: scale(1.2);
+}
+
+.span{
+    color: var(--color-primaria);
+    font-size: 22px;
+    font-weight: 500;
+}

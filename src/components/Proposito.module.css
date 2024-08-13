@@ -1,0 +1,121 @@
+.sectionProposito{
+    display: flex;
+    min-height: 100vh;
+    margin:0 auto;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    background-color: var(--color-black);
+}
+
+.lineProposito, .lineAlunos{
+    width: 100%;
+}
+
+.container{
+    min-height: 100vh;
+    height: 100%;
+    align-content: space-between;
+    padding: 40px 0px;
+}
+
+.container1{
+    display: flex;
+    padding:0 2%;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+
+.container2{
+    display: flex;
+    padding:0 2%;
+    margin:0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.fresePrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.fresePrincipal h1{
+    font-size: 22px;
+}
+
+.boxDiferencial{
+    font-size: 14px;
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxDiferencial{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 440px;
+    margin: 20px;
+    background-color: var(--color-blackC);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 6px rgb(28, 2, 2);
+    transition: box-shadow ease .5s;
+}
+
+.boxDiferencial:hover{
+    transition: box-shadow ease 1s;
+    box-shadow: 1px 1px 8px var(--color-primaria);
+}
+
+.textoDiferencial{
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.boxDiferencialImg{
+    padding-top: 10px;
+    height: 30%;
+}
+
+.boxDiferencialH2{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.boxDiferencialH3{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.garantiVaga{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.textoGarantiVaga{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px;
+}

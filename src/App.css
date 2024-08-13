@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: var(--color-white);
+}
+
+html, body, #root {
+  background-color: var(--color-white);
+  height: 100%;
+}
+
+:root{
+  --color-white: rgb(242, 242, 242);
+  --color-black: rgb(20, 20, 20);
+  --color-primaria: rgb(229, 3, 4);
+  --color-blackC: rgb(30, 30, 30);
+}
