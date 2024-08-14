@@ -51,6 +51,7 @@ function ParaVoce() {
                 {!hoveredOption && 'Passe o mouse sobre uma opção para ver mais detalhes.'}
                 </h3>
             </div>
+            
         </Container>
     </section>
   )

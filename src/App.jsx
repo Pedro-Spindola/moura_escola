@@ -6,6 +6,7 @@ import Slider from './components/Slider'
 import Sobre from './components/Sobre'
 import ParaVoce from './components/ParaVoce'
 import Footer from './components/Footer'
+import Perguntas from './components/Perguntas'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Sobre/>
       <Slider/>
       <ParaVoce/>
+      <Perguntas/>
       <Footer/>
     </div> 
   )
