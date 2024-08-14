@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import styles from './Container.module.css';
 
 const Container = ({ children, className }) => {
-  const containerClasses = `${styles.container} ${className || ''}`;
+  const containerClasses = `${className || ''} ${styles.container}`;
   return (
     <div className={containerClasses}>
       {children}

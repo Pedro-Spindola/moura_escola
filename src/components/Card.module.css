@@ -50,3 +50,15 @@
     font-weight: 400;
     letter-spacing: 1px;
 }
+
+@media (max-width: 999px){
+    .card{
+        height: 420px;
+    }
+}
+
+@media (max-width: 768px){
+    .card{
+        height: 440px;
+    }
+}

@@ -99,3 +99,16 @@
 .pontoHovered {
     background-color: var(--color-primaria); /* cor quando hovered */
 }
+
+
+@media (max-width: 999px){
+    .section{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .section{
+        display: none;
+    }
+}

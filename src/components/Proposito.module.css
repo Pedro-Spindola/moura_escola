@@ -13,6 +13,7 @@
 }
 
 .container{
+    max-width: 1800px;
     min-height: 100vh;
     height: 100%;
     align-content: space-between;
@@ -118,4 +119,75 @@
     text-align: center;
     padding: 10px 0px;
     padding-right: 30px;
+}
+
+@media (max-width: 1440px){
+    .container{
+        max-width: 1200px;
+    }
+
+    .garantiVaga{
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 999px){
+    .container{
+        max-width: 1000px;
+    }
+
+    .fresePrincipal h1{
+        font-size: 20px;
+    }
+
+    .conteudo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .boxDiferencial{
+        width: 80%;
+        height: 400px;
+        margin: 20px;
+        padding: 16px;
+    }
+
+    .garantiVaga{
+        height: 120px;
+        flex-direction: column;
+    }
+    
+    .textoGarantiVaga{
+        font-size: 18px;
+        padding: 20px 0px;
+    }
+
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 768px;
+    }
+
+    .fresePrincipal h1{
+        font-size: 16px;
+    }
+
+    .boxDiferencial{
+        width: 90%;
+        height: 480px;
+    }
+
+    .garantiVaga{
+        height: 150px;
+        flex-direction: column;
+    }
+    
+    .textoGarantiVaga{
+        font-size: 18px;
+        padding: 20px 0px;
+    }
 }

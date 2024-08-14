@@ -1,0 +1,116 @@
+.section{
+    background-color: var(--color-black);
+    min-height: 600px;
+}
+
+.boxButton{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+.textButtonH2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 0px;
+    padding-right: 30px;
+}
+
+.boxPerguntas{
+    width: 100%;
+    padding: 40px 0;
+}
+
+.boxButton{
+    margin: 20px 0;
+}
+
+.mod_single1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-blackC);
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: border-radius ease-out .1s;
+}
+
+.mod_single1_aberto{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.mod_single1 img{
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.mod_single1 h1{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 14px;
+    padding-left: 50px;
+}
+
+.mod_single2 {
+    position: relative;
+    max-height: 0px;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    background-color: var(--color-blackC);
+    transition: max-height .5s ease, padding .5s ease-in-out;
+    display: flex;
+    top: -10px;
+}
+
+.mod_single2_aberto {
+    max-height: 1000px;
+    padding-bottom: 12px;
+    transition: max-height .5s ease, padding .5s ease-in-out;
+}
+
+
+.mod_single2 h2{
+    font-weight: 400;
+    padding: 6px 28px;
+    padding-top: 16px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.5;
+}
+
+@media (max-width: 999px){
+    .boxButton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        flex-direction: column;
+    }
+    
+    .textButtonH2{
+        font-size: 18px;
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width: 768px){
+    .boxButton{
+        height: 170px;
+        flex-direction: column;
+    }
+    
+    .textButtonH2{
+        font-size: 18px;
+        padding: 20px 0px;
+    }
+}

@@ -9,6 +9,7 @@
 
 .container{
     width: 100%;
+    max-width: 1800px;
     justify-content: center;
     align-content: space-around;
 }
@@ -91,4 +92,76 @@
 
 .boxFrase h1{
     font-size: 20px;
+}
+
+@media (max-width: 1440px){
+    .container{
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 999px){
+    .container{
+        max-width: 1000px;
+    }
+
+    .boxSobre1{
+        width: 80%;
+        min-height: 600px;
+        flex-wrap: wrap;
+    }   
+
+    .fotosOne{
+        height: auto;
+        width: 100%;
+    }
+    
+    .textoOne{
+        width: 100%;
+        flex-wrap: wrap;
+        align-content: start;
+        padding: 30px;
+    }
+
+    .textoOne h2{
+        font-size: 20px;
+    }
+    
+    .textoOne h3{
+        font-size: 18px;
+    }
+
+    .garantiVaga{
+        height: 200px;
+        flex-direction: column;
+    }
+    
+    .textoGarantiVaga{
+        font-size: 18px;
+        padding: 20px 0;
+    }
+
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 768px;
+    }
+
+    .boxSobre1{
+        width: 90%;
+    }   
+
+    .textoOne h2{
+        font-size: 18px;
+    }
+    
+    .textoOne h3{
+        font-size: 16px;
+    }
+
+    .boxFrase h1{
+        text-align: center;
+        font-size: 18px;
+    }
 }

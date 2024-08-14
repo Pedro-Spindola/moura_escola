@@ -16,10 +16,14 @@ function Slider() {
 
     useEffect(() => {
         function handleResize(){
-            if(window.innerWidth >= 1400){
+            if(window.innerWidth >= 1440){
+                setSlidePerView(4);
+            } else if(window.innerWidth < 1440 && window.innerWidth >= 1000){
                 setSlidePerView(3);
-            } else if(window.innerWidth < 1400 && window.innerWidth >= 1000){
+            } else if(window.innerWidth < 1000 && window.innerWidth >= 768){
                 setSlidePerView(2);
+            } else if(window.innerWidth < 768){
+                setSlidePerView(1);
             }
         }
 
