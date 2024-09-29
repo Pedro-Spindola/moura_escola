@@ -1,4 +1,3 @@
-import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Card from './Card'
 import Container from './Container'
@@ -51,13 +50,13 @@ function Slider() {
                         <Card foto={pessoa02} nome="Lucas Almeida" comentario="A abordagem prática e os feedbacks detalhados me ajudaram a enxergar o design gráfico de uma maneira completamente nova. Minha evolução foi perceptível desde as primeiras sessões." />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Card foto={pessoa04} nome="Carolina Souza" comentario="O Palestino não apenas me ensinou técnicas de design, mas também me mostrou como pensar como uma designer. A mentoria foi fundamental para o meu crescimento profissional" />
+                        <Card foto={pessoa04} nome="Carolina Souza" comentario="O Rafael não apenas me ensinou técnicas de design, mas também me mostrou como pensar como uma designer. A mentoria foi fundamental para o meu crescimento profissional" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Card foto={pessoa03} nome="Renato Lima" comentario="Graças à mentoria do Leonardo, consegui desenvolver um portfólio que me abriu portas no mercado de trabalho. Cada sessão foi um passo importante na minha carreira como designer gráfico." />
+                        <Card foto={pessoa03} nome="Renato Lima" comentario="Graças à mentoria do Rafael, consegui desenvolver um portfólio que me abriu portas no mercado de trabalho. Cada sessão foi um passo importante na minha carreira como designer gráfico." />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Card foto={pessoa05} nome="Amanda Oliveira" comentario="O Leonardo tem uma maneira única de explicar conceitos complexos de design gráfico. As sessões de mentoria me deram a confiança necessária para realizar projetos com mais criatividade e precisão." />
+                        <Card foto={pessoa05} nome="Amanda Oliveira" comentario="O Rafael tem uma maneira única de explicar conceitos complexos de design gráfico. As sessões de mentoria me deram a confiança necessária para realizar projetos com mais criatividade e precisão." />
                     </SwiperSlide>
                 </Swiper>
             </Container>

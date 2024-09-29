@@ -15,6 +15,6 @@ html, body, #root {
 :root{
   --color-white: rgb(242, 242, 242);
   --color-black: rgb(20, 20, 20);
-  --color-primaria: rgb(229, 3, 4);
+  --color-primaria: #dd5b16;
   --color-blackC: rgb(30, 30, 30);
 }

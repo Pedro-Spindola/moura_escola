@@ -1,8 +1,31 @@
-main{
+main {
+    position: relative;            /* Para que o ::before funcione corretamente */
     background-color: var(--color-black);
     width: 100%;
     height: calc(100vh - 80px);
+    overflow: hidden;             /* Garante que nada extravase */
 }
+
+main::before {
+    content: '';
+    position: absolute;           /* Posiciona a pseudo-classe em relação ao main */
+    top: 0;                       /* Alinha ao topo */
+    left: 0;                      /* Alinha à esquerda */
+    right: 0;                     /* Estende até a direita */
+    bottom: 0;                    /* Estende até a parte inferior */
+    background-image: url(../assets/backg.jpg);
+    background-size: cover;       /* Faz com que a imagem cubra todo o elemento */
+    background-position: center;  /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    opacity: 0.08;                 /* Ajuste a opacidade aqui (0 a 1) */
+    z-index: 0;                   /* Coloca a imagem atrás do conteúdo */
+}
+
+main > * {
+    position: relative;           /* Garante que o conteúdo seja exibido sobre a imagem */
+    z-index: 1;                  /* Coloca o conteúdo acima da imagem de fundo */
+}
+
 
 .container{
     height: calc(100% - 40px);

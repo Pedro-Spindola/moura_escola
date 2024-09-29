@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Principal.module.css'
 import Container from './Container'
 import logotipo from '../assets/logo.png'
@@ -14,12 +13,12 @@ function Principal() {
                     <div className={styles.boxImage}>
                         <img className={styles.imgLogo} src={logotipo}></img>
                         <div className={styles.textLogo}>
-                            <h1 className={styles.nomeLogoH1}>Moura</h1>
-                            <h2 className={styles.nomeLogoH2}>Escola de Arte</h2>
+                            <h1 className={styles.nomeLogoH1}>NextGen</h1>
+                            <h2 className={styles.nomeLogoH2}>NextGen Design</h2>
                         </div>
                     </div>
-                    <h1 className={styles.titulo}>NOSSA ESCOLA</h1>
-                    <h2 className={styles.subTitulo}>Se você quer <span className={styles.span}>aprender Design de verdade</span>, minha mentoria é para você. Com <span className={styles.span} >experiência e paixão</span>, ofereço um <span className={styles.span} >ensino personalizado</span> para desenvolver seu talento e alcançar suas metas. Junte-se a mim e <span className={styles.span} >transforme seu potencial em realidade</span>.</h2>
+                    <h1 className={styles.titulo}>NOSSA INSTITUIÇÃO</h1>
+                    <h2 className={styles.subTitulo}><span className={styles.span}>Pronto para elevar suas habilidades de design?</span> Minha mentoria oferece um ensino personalizado que se adapta ao seu ritmo, combinando <span className={styles.span} >experiência e dedicação</span> para transformar sua criatividade em resultados. Seja você um iniciante ou buscando aprimoramento, estou aqui para ajudá-lo a alcançar suas metas. <span className={styles.span} >Invista no seu futuro e transforme seu potencial em realidade</span> — inscreva-se agora!</h2>
                 </div>
                 <div className={styles.boxTwo}>
                     <img className={styles.imgProfessor} src={professor} alt="" />

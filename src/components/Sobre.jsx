@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Sobre.module.css'
 import Container from './Container'
 import Imagem01 from '../assets/sobreImg01.jpg'
@@ -14,16 +13,9 @@ function Sobre() {
                 </div>
                 <div className={styles.textoOne}>
                     <h2>Você será mentorado por mim.</h2>
-                    <h2>Leonardo "Palestino"</h2>
-                    <h3>Atuo na área do Design há mais de 10 anos e sou dono do canal Palestino Design que conta com amis de 85 mil inscritos no Youtube. 
-                        Desde que comecei a trilhar minha jornada como Designer/Artista, eu percebi que além de criar, eu gostava de ensinar.
-                        Passei por muitos perrengues, tomei muito calote de cliente, errei e aprendi demais, mas nunca desisti.<br/><br/>
-                    </h3>
-                    <h3>
-                    E por ter passado por tudo isso, junto com a vontade de ensinar.
-                        Hoje eu trago o que sei através de conteúdos, cursos e da mentoria que a Moura - Escola de Arte oferece.
-                        Além de acreditar que todos temos um potencial criativo absurdo, e eu sou o cara que gosta de incentivar pessoas a alcançarem a excelência.
-                    </h3>
+                    <h2>Rafael Costa</h2>
+                    <h3>Olá atuo na área de Design há mais de 15 anos. Sou o fundador do canal “NG-Design”, que conta com mais de 200 mil inscritos no YouTube. Desde o início da minha jornada como Designer e Artista, percebi que, além de criar, eu realmente gostava de ensinar. Enfrentei muitos desafios e diversos erros, mas cada perrengue me trouxe aprendizados valiosos e me fez mais resiliente.<br/><br/></h3>
+                    <h3>Hoje, trago meu conhecimento através de conteúdos, cursos e da mentoria oferecida na “NextGen Design”. Acredito que todos têm um potencial criativo imenso, e minha missão é incentivar as pessoas a alcançarem a excelência. Cada vídeo que publico e cada aluno que mentoro são oportunidades de transformar sonhos em realidade, e estou aqui para mostrar que, com dedicação, é possível criar um futuro brilhante no design!</h3>
                 </div>
             </div>
             <div className={styles.garantiVaga}>
